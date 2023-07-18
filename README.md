@@ -10,10 +10,17 @@ My tutorial on getting using bazel working.
 
 ### Todo
 
-- Build an executable jar file
-- Use a third party library
-- Vertx web server
-- Vertx web server hosting a UI framework
+- Java 
+  - Build an executable jar file
+  - Use a third party library 
+  - Vertx web server
+  - Vertx web server hosting a UI framework
+  - Unit tests
+ 
+- Other
+  - Move bazel out directories somewhere else
+  - C build (optional)
+  - C++ build (optional)
 
 
 
