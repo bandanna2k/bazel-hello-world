@@ -10,7 +10,6 @@ build_module(
 test_module(
     name = "hello-world-test",
     test_deps = [
-        ":hello-world-lib",
         "//libs:junit",
     ],
 )

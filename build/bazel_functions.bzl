@@ -32,5 +32,7 @@ def test_module(
 ):
     native.java_test(
         name = name,
+        srcs = native.glob(["src/**", "test/**"]),
+        resources = native.glob(["resources/**"]),
         runtime_deps = test_deps,
     )
