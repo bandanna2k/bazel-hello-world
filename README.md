@@ -2,16 +2,19 @@
 
 My tutorial on getting using bazel working. 
 
-## Checklist
-
-### Done
-
 - Build a jar file
+  - Command `bazel build //hello-world:hello-world-lib`
+  - Output `bazel-bin/hello-world/libhello-world-lib.jar`
 
-### Todo
+- Build a executable jar file
+  - Command `bazel build bazel-bin/hello-world/hello-world_deploy.jar`
+  - Output `bazel-bin/hello-world/hello-world_deploy.jar`
+    (this contains the main method)
+  - To run `java -jar bazel-bin/hello-world/hello-world_deploy.jar`
+
+### Todo Checklist
 
 - Java 
-  - Build an executable jar file
   - Use a third party library 
   - Vertx web server
   - Vertx web server hosting a UI framework

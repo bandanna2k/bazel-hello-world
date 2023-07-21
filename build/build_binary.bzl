@@ -7,8 +7,7 @@ def build_binary(
     native.java_binary(
             name = name,
             deps = main_deps,
-            srcs = native.glob(["src/*"]),
+            srcs = native.glob(["src/**"]),
             main_class = main_class,
-            create_executable = True,
             visibility = visibility,
     )

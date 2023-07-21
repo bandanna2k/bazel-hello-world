@@ -11,5 +11,6 @@ build_binary(
     name = "hello-world",
     main_class = "helloworld.Main",
     main_deps = [
+        ":hello-world-lib",
     ],
 )
