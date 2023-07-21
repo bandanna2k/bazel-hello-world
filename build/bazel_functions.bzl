@@ -24,3 +24,13 @@ def build_binary(
             main_class = main_class,
             visibility = visibility,
     )
+
+def test_module(
+    name,
+    visibility = ["//visibility:public"],
+    test_deps = []
+):
+    native.java_test(
+        name = name,
+        runtime_deps = test_deps,
+    )

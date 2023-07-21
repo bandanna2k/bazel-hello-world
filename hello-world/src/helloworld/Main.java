@@ -9,6 +9,12 @@ public class Main
 
     public static void main(String[] args)
     {
+        new Main().start();
+    }
+
+    boolean start()
+    {
         LOGGER.info("Hello world!");
+        return false;
     }
 }

@@ -13,6 +13,9 @@ My tutorial on getting using bazel working.
   - To run `java -jar bazel-bin/hello-world/hello-world_deploy.jar`
   - Notes: Uses 3rd party library
 
+- Run tests (NOT WORKING)
+  - Command `bazel test bazel-bin/hello-world/hello-world-test.jar`
+
 ### Todo Checklist
 
 - Java
