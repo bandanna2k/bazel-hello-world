@@ -4,51 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af9441a3-495f-4890-ab18-95f1660ff2f6" name="Changes" comment="Introduction to Bazel - Add some missing intellij files">
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/WORKSPACE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/part1-hello-world-library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part1-hello-world-library/src/helloworld/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/WORKSPACE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/part2-executable-jar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../part2-executable-jar/src/helloworld/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WORKSPACE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/BUILD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slf4j/slf4j-api-2.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slf4j/slf4j-simple-2.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3-external-dependencies.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helloworld/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WORKSPACE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/BUILD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/bazel_functions.bzl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/BUILD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/src/helloworld/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello-world/test/helloworld/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libs/BUILD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libs/slf4j/slf4j-api-2.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../libs/slf4j/slf4j-simple-2.0.7.jar" beforeDir="false" />
+    <list default="true" id="af9441a3-495f-4890-ab18-95f1660ff2f6" name="Changes" comment="Bazel Hello World&#10;- Reorganise into parts (part1, part2, part3)">
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/BUILD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/WORKSPACE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/libs/BUILD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/libs/junit4/hamcrest-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/libs/junit4/junit-4.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/libs/takari-cpsuite/takari-cpsuite-1.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/part4-unit-tests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/src/helloworld/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/test/helloworld/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/test/helloworld/AnotherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../part4-unit-tests/test/helloworld/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/northd/dev/bazel-hello-world/part3-external-dependencies",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/northd/dev/bazel-hello-world/part3-external-dependencies&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -98,6 +72,7 @@
       <workItem from="1690488754710" duration="870000" />
       <workItem from="1690509787876" duration="316000" />
       <workItem from="1690965515623" duration="183000" />
+      <workItem from="1690965717368" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="Introduction to Bazel - Step 3, External dependencies">
       <option name="closed" value="true" />
@@ -115,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690489470619</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bazel Hello World&#10;- Reorganise into parts (part1, part2, part3)">
+      <option name="closed" value="true" />
+      <created>1690965825919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690965825919</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Introduction to Bazel - Step 3, External dependencies" />
     <MESSAGE value="Introduction to Bazel - Add some missing intellij files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduction to Bazel - Add some missing intellij files" />
+    <MESSAGE value="Bazel Hello World&#10;- Reorganise into parts (part1, part2, part3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bazel Hello World&#10;- Reorganise into parts (part1, part2, part3)" />
   </component>
 </project>
