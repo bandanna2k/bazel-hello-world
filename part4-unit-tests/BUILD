@@ -4,6 +4,7 @@
 # - To test `bazel test //:test-hello-world`
 # - Force re-test `bazel test //:test-hello-world --cache_test_results=no`
 # - Test with more detail `bazel test //:test-hello-world --test_summary=detailed`
+# - Test 1 individual suite `bazel test //:test-hello-world --test_filter=helloworld.AnotherTest --test_summary=detailed --cache_test_results=no`
 
 java_test(
     name = "test-hello-world",
